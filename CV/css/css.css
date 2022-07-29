@@ -39,11 +39,13 @@ a{
     font-size: 4.5vh;
     color: white;
     margin-top: auto;
+    margin-bottom: auto;
 }
 #coor{
     grid-area: 1 / 2 / 2 / 3;
     color: white;
-    margin-top: 5vh;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 .mail{
     color: red;
