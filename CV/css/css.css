@@ -5,27 +5,66 @@
     padding: 0;
     width: 100%;
 }
+/*GRID SITE*/
+#site {
+    background-image: url("../img/fondcv.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+
+/*GRID SITE*/
+
 /*Header*/
-#nom{
-    font-size: 16vh;
+#header{
+    grid-area: 1 / 1 / 2 / 6;
+}
+.header{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr) 1fr;
+    grid-template-rows: 0.2fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+a{
+    text-decoration: none;
+}
+#nom{ 
+    grid-area: 1 / 1 / 2 / 2;
+    font-size: 6vh;
     color: white;
 }
 #coor{
+    grid-area: 1 / 2 / 2 / 3;
     color: white;
+    margin-top: 5vh;
 }
 .mail{
     color: red;
+    font-size: 3.5vh;
+    line-height: 10vh;
+    text-align: right;
 }
 .git{
     color: purple;
+    font-size: 3.5vh;
+    text-align: right;
 }
 #photo{
+    grid-area: 1 / 3 / 2 / 4;
     border-radius: 50% 50% 50% 50% / 50% 50% 50% 50% ;
 }
 /*HEADER*/
 
 /*TITRE*/
-
+#titre{
+    grid-area: 2 / 1 / 3 / 6;
+}
 #titre.h1{
     color: white;
 }
@@ -34,7 +73,21 @@
 
 /*MAIN*/
 
-
+#main{
+    grid-area: 3 / 1 / 4 / 6;
+}
 
 /*MAIN*/
+
+/*FOOT*/
+
+#footer{
+    grid-area: 4 / 1 / 6 / 6;
+}
+#imgLCC{
+    width: 15vh;
+    height: auto;
+}
+
+/*FOOT*/
 }
