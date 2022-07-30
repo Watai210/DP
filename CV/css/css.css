@@ -171,7 +171,7 @@ button{
     grid-area: 1 / 2 / 3 / 3;
 }
 .expbg{
-    background-image: url("../img/fondexp.svg");
+    background-image: url("../img/fondexp1.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
