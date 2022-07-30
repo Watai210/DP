@@ -61,6 +61,7 @@ a{
     color: white;
     font-size: 3.5vh;
     text-align: right;
+    padding-bottom: 1px;
 }
 .git{
     color: white;
@@ -169,6 +170,13 @@ button{
 }
 #fondpara{
     grid-area: 1 / 2 / 3 / 3;
+    width: auto;
+    height: 50vh;
+    margin-top: 5vh;
+    background-image: url("../img/dev.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
 }
 .expbg{
     background-image: url("../img/fondexp1.svg");
