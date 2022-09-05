@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Louis George Cafe';
+    src: local('Louis George Cafe'),
+        url(../font/LouisGeorgeCafe.ttf) format('truetype');
+    font-weight: 800;
+    font-style: normal;
+  }
+body{
+    font-family: 'Louis George Cafe';
+}
