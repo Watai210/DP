@@ -9,7 +9,7 @@ function comp(btncomp){
     document.getElementById('paragraphe').setAttribute('class', 'compbg');
 }
 function forma(btnforma){
-    document.getElementById('paragraphe').innerHTML = "<p><strong>Développeur WEB et WEB mobile CCP1(Front-End) |</strong>(en cours d'acquisition)<br><span class='taches'><i>AFCI Saint-Quentin</i></span><br><strong>Certificat de Sauveteur-Secouriste du Travail (SST) |</strong>2022<br><strong>1ère année Licence Métiers du WEB |</strong>2013 - 2014<br><span class='taches'><i>I.N.S.S.E.T Saint-Quentin</i></span><br><strong>1ère année BTS Informatique et Réseaux pour l'Industrie et les Services techniques |</strong>2012 - 2013<br><span class='taches'><i>Lycée Condorcet</i></span><br><strong>BAC Sciences et Techniques de l'Ingénieur Electrotechnique |</strong>2010 - 2012<br><span class='taches'><i>Lycée Condorcet</i></span></p>"
+    document.getElementById('paragraphe').innerHTML = "<p><strong>Développeur WEB et WEB mobile CCP1(Front-End) | </strong>(en cours d'acquisition)<br><span class='taches'><i>AFCI Saint-Quentin</i></span><br><strong>Certificat de Sauveteur-Secouriste du Travail (SST) | </strong>2022<br><strong>1ère année Licence Métiers du WEB | </strong>2013 - 2014<br><span class='taches'><i>I.N.S.S.E.T Saint-Quentin</i></span><br><strong>1ère année BTS Informatique et Réseaux pour l'Industrie et les Services techniques | </strong>2012 - 2013<br><span class='taches'><i>Lycée Condorcet</i></span><br><strong>BAC Sciences et Techniques de l'Ingénieur Electrotechnique | </strong>2010 - 2012<br><span class='taches'><i>Lycée Condorcet</i></span></p>"
     document.getElementById('paragraphe').setAttribute('class', 'formabg');
 }
 function infos(btninfos){
