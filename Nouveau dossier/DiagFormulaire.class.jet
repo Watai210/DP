@@ -1,0 +1,1 @@
+{"diagram":"ClassDiagram","nodes":[{"methods":"ID : int(11) -> AUTO_INCREMENT\nNom : varchar(50)\nPrénom : varchar(60)\nAdresse : varchar(100)\nCode_Postal : varchar(5)\nVille : varchar(200)\nMail : varchar(100)\nMDP : varchar(255)\nNewsletter : int(1)","name":"formulaire","x":290,"y":120,"attributes":"","id":0,"type":"ClassNode"}],"edges":[],"version":"3.5"}

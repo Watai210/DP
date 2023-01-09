@@ -1,0 +1,1 @@
+{"diagram":"ClassDiagram","nodes":[{"methods":"nom : varchar(255)\nstorage : varchar(255)\ntype : varchar(11)\ndescription : varchar(255)","name":"Envoiefichier","x":260,"y":110,"attributes":"","id":0,"type":"ClassNode"}],"edges":[],"version":"3.5"}
